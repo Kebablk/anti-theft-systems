@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,44 +11,37 @@
     <link rel="stylesheet" type="text/css" href="feedbackForms.css" />
   </head>
   <body>
-    <header>
-      <nav class="menu">
-        <div class="nameCompany">
-          <h2 class="name">Kebab<span class="letterBig">S</span>ignal</h2>
-          <br />
-          <span class="system">Системы безопасности</span>
-        </div>
-        <a href="#">Главная</a>
-        <a href="#">О компании</a>
-        <a href="#">Продукция</a>
-        <a href="#">Отзывы о нас</a>
-        <a href="#">Контакты</a>
-        <div class="telephoneBlock">
-          <span class="tel">+7918666666</span><br />
-          <span class="tel">+7918666666</span>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section id="hero">
-        <div class="page1">
-          <div class="formBlock">
-            <span class="leave-feadback">Оставить отзыв</span>
-            <input class="input-for-name" type="text" placeholder="Ваше имя: " required>
-            <input class="input-for-surname" type="text" placeholder="Ваша фамилия: " required>
-            <div class="fileBox">
-              <span class="file">Файл: </span> <br>
-              <input type="file" class="FileButton">
-            </div>
-            <textarea class="feadbackBox" placeholder="Оставить отзыв"></textarea>
-            <div class="privacy">
-              <input type="checkbox" required>
-              <span>Я согласен на <span class="magicText">обработку персональных данных</span></span>
-            </div>
-            <button type="button" class="btn-send">Отправить</button>
+    <section id="form-feedback">
+      <div class="feedback-page">
+        <div class="formBlock">
+          <span class="leave-feadback">Оставить отзыв</span>
+          <input
+            class="input-for-name"
+            type="text"
+            placeholder="Ваше имя: "
+            required
+          />
+          <input
+            class="input-for-surname"
+            type="text"
+            placeholder="Ваша фамилия: "
+            required
+          />
+          <div class="fileBox">
+            <span class="file">Файл: </span> <br />
+            <input type="file" class="FileButton" />
           </div>
+          <textarea class="feadbackBox" placeholder="Оставить отзыв"></textarea>
+          <div class="privacy">
+            <input type="checkbox" required />
+            <span
+              >Я согласен на
+              <span class="magicText">обработку персональных данных</span></span
+            >
+          </div>
+          <button type="button" class="btn-send">Отправить</button>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>
